@@ -29,7 +29,7 @@ namespace NeoLoadAddOn.listener
         /// <summary>
         /// Returns true if the test configuration parameter UseNeoLoadDataExchangeApi is set
         /// </summary>
-        public bool DataExchangeApiEnabled => MainConfiguration.Instance.TryGetBool("SendEndUserExperience",
+        public bool DataExchangeApiEnabled => MainConfiguration.Instance.TryGetBool("SendEndUserExperienceToNeoLoad",
                                                    out bool dataExchangeApiEnabled) && dataExchangeApiEnabled;
 
         /// <summary>
